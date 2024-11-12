@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="weather">
+        <h1 style="text-align: center; ">Weather Forcast for tomorrow</h1>
+        <div id="input">
+            <input type="text"  placeholder=" time-13:00" id="timeOfForecast">
+            <input type="text" placeholder="city" id="city"> 
+            <button type="submit">Get Weather Data</button>
+        </div>
+        <div id="mainbody">
+            <div id="day-night">
+                <img src="./images/sun.png" alt="" style="height: 200px;" id="img">
+                <h1 id="state">Sunny</h1>
+            </div>
+            <div id="others">
+                    <!-- <div id="rainy">
+                        <img src="./images/rainy.jpg" alt="">
+                        <h4 id="rainyo">--</h4>
+                        <h3>Rain</h3>
+                    </div> -->
+                <div id="humidity">
+                    <img src="./images/jumidity.png" alt="">
+                    <h4 id="humidityo">--</h4>
+                    <h3>Humidity</h3>
+                </div>
+                <!-- <div id="cloudy">
+                    <img src="./images/cloudy.png" alt="">
+                    <h4 id="cloudyo">--</h4>
+                    <h3>Cloudy</h3>
+                </div> -->
+                <div id="temperature">
+                    <img src="./images/temperature.png" alt="">
+                    <h4 id="temperatureo">--</h4>
+                    <h3>temperature</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+</html>
